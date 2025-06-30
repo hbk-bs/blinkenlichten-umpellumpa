@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>physical computing</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="alternate" href="assets/css/base.css">
+</head>
+<body>
+
+    <h1> physical-computing</h1>
+    <h2> project "Blinkenlichten"</h2>
+    <div class="row">
+        <p> Exploring hardware and Arduino introduced new ways to see how programming can be applied to operational machines. This was our final project of the semester. The course theme was "Albtraum Stadt" (= "Nightmare City"). First, we decided on a color scheme—red, blue, and silver—then selected materials, ensuring an upcycling approach. We also considered proportions, designing a miniature town where buildings were smaller than the cat, soda can, and other elements. Finally, we planned how the final installation should be presented. Our group created a traffic light, constructed from cardboard and plastic cones. The hardware components included RGB LEDs, a circuit board, wires, an ultrasonic sensor, capacitors, resistors, and an Arduino board. We first tested the connections on a breadboard before soldering them together on a circuit board.
+            The goal was to program the lights to respond to distance: as a person approached, the lights would activate one by one. The third light illuminated when standing furthest away, the second when moving closer, and the first when reaching the shortest distance from the sensor. This small video on the right demonstrates how the traffic light operated.
+            One of the biggest challenges was coding the second light to stay visible longer, preventing it from switching too quickly to the first light. Fine-tuning the timing and responsiveness of the system required careful adjustments. This project demonstrated the versatility of coding in physical computing, highlighting how programming interacts with hardware to create interactive and dynamic installations.</p>
+            <div class="source-code"> 
+                <video src="ampel-video.mp4" type="video/mp4" controls muted autoplay></video>
+                <a href="source-code.txt">source code</a></div>
+    </div>
+    <div class="row">
+        <div class="column">
+            <img src="test connections.jpeg" alt="first test on a breadboard">
+            <p> first test on breadboard</p>
+            <img src="final-2.png" alt="first test on a breadboard">
+            <p> final, connecting wires into Arduino</p>
+        </div>
+        <div class="column">
+            <img src="first-plan.jpeg" alt="first test on a breadboard">
+            <p> first sketch</p>
+            <img src="final-sketch.jpeg" alt="sketch how to connect the wires">
+            <p> final sketch how to connect all the wires</p>
+        </div>
+        <div class="column">
+            <img src="1-plan.jpeg" alt="arduino with cables">
+            <p> cutting the RGB-lights</p>
+            <img src="final.jpeg" alt="cables soldered together">
+            <p> final result, soldering </p>
+        </div>
+        <div class="column">
+          <img src="isolating wires.png" alt="cables soldered together">
+            <p> second idea: isolating the wires </p>
+        </div>
+    </div>
+</body>
+</html>
