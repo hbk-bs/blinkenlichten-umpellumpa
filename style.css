@@ -6,6 +6,9 @@ h1{
   padding-top: 15px;
  
 }
+p{
+  width: 66ch;
+}
 a{
   color: red;
 }
